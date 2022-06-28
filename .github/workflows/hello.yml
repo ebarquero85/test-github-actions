@@ -9,7 +9,11 @@ jobs:
   hello_world:
     runs-on: ubuntu-22.04
     steps:
-      - name: Echo the message
+      - name: Echo the message #El name no es requerido
         run: |
           echo "Hola Edgard!"
+      - name: Dime la fecha
+        run: date
+      - name: Mostrar fichero
+        run: ls -l
 
